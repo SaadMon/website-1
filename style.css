@@ -1,0 +1,92 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #0d460d, #2b8b2b);
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-between;
+    color: white;
+}
+.navbar .logo{
+    font-weight: bold;
+    font-size: 30px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul a{
+    padding: 10px 20px;
+    margin: 0 5px;
+    color: whitesmoke;
+    border-radius: 20px;
+    /* transition: .7s; */
+    border: 2px solid transparent; /* reserve space */
+
+}
+nav ul a:hover, nav ul li:first-child a{
+    border: 2px solid grey;
+}
+nav ul a{
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    height: calc(100vh - 100px);
+    padding:0 100px;
+    color: white;
+    align-items: center;
+}
+.main .icons{
+    display: flex;
+    flex-direction: column;
+    
+}
+.main section *{
+    padding-bottom: 40px;
+}
+.centerContent{
+    padding-left: 120px;
+}
+.centerContent .goblings{
+    font-family: "Story Script", sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+}
+button{
+    all: unset;
+    padding: 13px 25px !important;
+    border-radius: 20px;
+    border: 2px solid grey;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: green;
+    transition: .3s;
+
+}
+button:hover{
+    background-color: rgba(0, 128, 0, 0.5);
+}
+.centerContent p:nth-of-type(2){
+    width: 200px;
+    white-space: wrap;
+}
+.monster img{
+    padding-left: 400px;
+}
+
+
